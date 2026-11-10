@@ -1,0 +1,45 @@
+# Arduino IDE
+.arduinoIDE/
+arduino_build_*/
+arduino_cache_*/
+
+# PlatformIO
+.pio/
+
+# C/C++ build outputs
+build/
+cmake-build-*/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.elf
+*.hex
+*.bin
+*.uf2
+*.map
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
