@@ -43,3 +43,27 @@ desktop.ini
 .env
 .env.*
 !.env.example
+# Keil MDK
+*.uvgui*
+*.uvopt
+*.axf
+*.plg
+*.lnp
+*.htm
+*.dbgconf
+Debug/
+Out Hex/
+# Keil MDK 编译产物
+*.crf
+*.d
+*.dep
+*.tra
+*.uvoptx
+*.lst
+Obj/
+OBJ/
+Objects/
+List/
+RTE/
+JLink*.txt
+JLink*.ini
