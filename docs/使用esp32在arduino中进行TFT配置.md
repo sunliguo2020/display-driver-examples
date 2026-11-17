@@ -13,7 +13,9 @@
 
 ## 二、安装并选择 TFT_eSPI
 
-在 Arduino IDE 的库管理器中搜索并安装 `TFT_eSPI`。库配置通常位于 Arduino 库目录下的 `TFT_eSPI/User_Setup.h` 和 `TFT_eSPI/User_Setup_Select.h`，**不是写在 `.ino` 草图里的配置**。
+在 Arduino IDE 的库管理器中搜索并安装 `TFT_eSPI`。
+
+库配置通常位于 Arduino 库目录下的 `TFT_eSPI/User_Setup.h` 和 `TFT_eSPI/User_Setup_Select.h`，**不是写在 `.ino` 草图里的配置**。
 
 `User_Setup_Select.h` 决定实际使用哪一份设置。不要把设置散落在草图里；建立自己的 setup 文件，并在选择文件中启用它。确保最终只启用一份与当前屏幕相符的 setup；修改后重新编译，并从编译输出确认 Arduino 使用的是你修改的那份 TFT_eSPI 库。电脑上安装了多个同名库时，Arduino 可能选中另一份。
 
